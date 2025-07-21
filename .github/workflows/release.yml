@@ -39,19 +39,19 @@ jobs:
           - os: windows-latest
             runtime: win-x64
             artifact_name: automatic-octo-lamp-win-x64.exe
-            asset_name: automatic-octo-lamp-win-x64.exe
+            asset_name: gh-automatic-octo-lamp-windows-amd64.exe
           - os: ubuntu-latest
             runtime: linux-x64
             artifact_name: automatic-octo-lamp
-            asset_name: automatic-octo-lamp-linux-x64
+            asset_name: gh-automatic-octo-lamp-linux-amd64
           - os: macos-13
             runtime: osx-x64
             artifact_name: automatic-octo-lamp
-            asset_name: automatic-octo-lamp-macos-x64
+            asset_name: gh-automatic-octo-lamp-darwin-amd64
           - os: macos-latest
             runtime: osx-arm64
             artifact_name: automatic-octo-lamp
-            asset_name: automatic-octo-lamp-macos-arm64
+            asset_name: gh-automatic-octo-lamp-darwin-arm64
 
     runs-on: ${{ matrix.os }}
 
