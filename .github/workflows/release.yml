@@ -44,11 +44,11 @@ jobs:
             runtime: linux-x64
             artifact_name: automatic-octo-lamp
             asset_name: automatic-octo-lamp-linux-x64
-          - os: macos-15-large
+          - os: macos-13
             runtime: osx-x64
             artifact_name: automatic-octo-lamp
             asset_name: automatic-octo-lamp-macos-x64
-          - os: macos-15
+          - os: macos-latest
             runtime: osx-arm64
             artifact_name: automatic-octo-lamp
             asset_name: automatic-octo-lamp-macos-arm64
