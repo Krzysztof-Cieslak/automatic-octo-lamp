@@ -40,7 +40,7 @@ jobs:
             runtime: win-x64
             artifact_name: automatic-octo-lamp-win-x64.exe
             asset_name: gh-automatic-octo-lamp-windows-amd64.exe
-          - os: ubuntu-latest
+          - os: ubuntu-22.04
             runtime: linux-x64
             artifact_name: automatic-octo-lamp
             asset_name: gh-automatic-octo-lamp-linux-amd64
